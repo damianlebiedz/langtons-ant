@@ -1,4 +1,4 @@
-# cpp-langtons-ant | W TRAKCIE TWORZENIA
+# Mrówka Langtona | W TRAKCIE TWORZENIA
 
 Symulacja mrówki Langtona w C++
 
