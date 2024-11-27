@@ -1,4 +1,4 @@
-9# Mrówka Langtona | W TRAKCIE TWORZENIA
+# Mrówka Langtona | W TRAKCIE TWORZENIA
 
 Symulacja mrówki Langtona w C++
 
@@ -10,6 +10,8 @@ Symulacja mrówki Langtona w C++
 
 ## Technologie
 - C++
+- SFML
+- CMake
 
 ## Instalacja
 
