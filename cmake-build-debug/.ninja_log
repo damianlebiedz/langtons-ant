@@ -1,0 +1,7 @@
+# ninja log v6
+1734	1973	7544325928371823	project.exe	dfca090e18b8ddda
+8	107	7544386357499733	CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj	1e3099048a156ece
+11	297	7544386357529752	CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj	1498864f87e81ad5
+3	511	7544386357459215	CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj	d672eb621e99ae7c
+18	515	7544386357599755	CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj	16f6bb9a5538c6ac
+515	652	7544386362572806	cpp-langtons-ant.exe	4f59ed4854b1a0e6
