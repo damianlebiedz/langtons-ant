@@ -1,4 +1,4 @@
-# Mrówka Langtona | W TRAKCIE TWORZENIA
+9# Mrówka Langtona | W TRAKCIE TWORZENIA
 
 Symulacja mrówki Langtona w C++
 
@@ -17,5 +17,4 @@ Symulacja mrówki Langtona w C++
 
 ## Kontakt
 Damian Lebiedź | 
-https://damianlebiedz.github.io |
-www.linkedin.com/in/damianlebiedz
+https://damianlebiedz.github.io
