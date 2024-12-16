@@ -1,7 +1,14 @@
 # ninja log v6
 1734	1973	7544325928371823	project.exe	dfca090e18b8ddda
-8	107	7544386357499733	CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj	1e3099048a156ece
-11	297	7544386357529752	CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj	1498864f87e81ad5
-3	511	7544386357459215	CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj	d672eb621e99ae7c
-18	515	7544386357599755	CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj	16f6bb9a5538c6ac
-515	652	7544386362572806	cpp-langtons-ant.exe	4f59ed4854b1a0e6
+28	705	7560516178460233	CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj	1e3099048a156ece
+38	743	7560610868401726	CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj	d672eb621e99ae7c
+38	658	7560516178561894	CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj	16f6bb9a5538c6ac
+744	864	7560610875446564	cpp-langtons-ant.exe	17aeb353f8a318c1
+34	748	7560516178521172	CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj	1498864f87e81ad5
+102	1077	7560613927030063	build.ninja	6a7f1db899b248fd
+23	512	7560527717975972	CMakeFiles/cpp-langtons-ant.dir/src/Button.cpp.obj	8cf613fd392f8add
+39	520	7560614087759916	CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj	16f6bb9a5538c6ac
+26	535	7560614087625070	CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj	1e3099048a156ece
+31	605	7560614087675823	CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj	1498864f87e81ad5
+36	698	7560614087729174	CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj	d672eb621e99ae7c
+698	821	7560614094341920	cpp-langtons-ant.exe	3d9cb532bf583e1

@@ -1,3 +1,5 @@
+#include <SFML/Graphics.hpp>
+
 #ifndef ANT_H
 #define ANT_H
 
@@ -13,9 +15,15 @@ public:
     int getY() const;
     Direction getDirection() const;
 
+    void move();
+    void draw(sf::RenderWindow& window) const;
+
 private:
     int x, y;
     Direction dir;
+
+    int direction;
+
 };
 
 #endif

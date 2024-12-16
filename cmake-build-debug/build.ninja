@@ -49,13 +49,6 @@ cmake_ninja_workdir = C$:/Users/Damia/cpp-langtons-ant/cmake-build-debug/
 
 build cmake_object_order_depends_target_cpp-langtons-ant: phony || .
 
-build CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj: CXX_COMPILER__cpp-langtons-ant_unscanned_Debug C$:/Users/Damia/cpp-langtons-ant/src/main.cpp || cmake_object_order_depends_target_cpp-langtons-ant
-  DEP_FILE = CMakeFiles\cpp-langtons-ant.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Damia/cpp-langtons-ant/include
-  OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp-langtons-ant.dir\src
-
 build CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj: CXX_COMPILER__cpp-langtons-ant_unscanned_Debug C$:/Users/Damia/cpp-langtons-ant/src/Ant.cpp || cmake_object_order_depends_target_cpp-langtons-ant
   DEP_FILE = CMakeFiles\cpp-langtons-ant.dir\src\Ant.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
@@ -63,8 +56,22 @@ build CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj: CXX_COMPILER__cpp-langton
   OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp-langtons-ant.dir\src
 
+build CMakeFiles/cpp-langtons-ant.dir/src/Button.cpp.obj: CXX_COMPILER__cpp-langtons-ant_unscanned_Debug C$:/Users/Damia/cpp-langtons-ant/src/Button.cpp || cmake_object_order_depends_target_cpp-langtons-ant
+  DEP_FILE = CMakeFiles\cpp-langtons-ant.dir\src\Button.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Damia/cpp-langtons-ant/include
+  OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-langtons-ant.dir\src
+
 build CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj: CXX_COMPILER__cpp-langtons-ant_unscanned_Debug C$:/Users/Damia/cpp-langtons-ant/src/Grid.cpp || cmake_object_order_depends_target_cpp-langtons-ant
   DEP_FILE = CMakeFiles\cpp-langtons-ant.dir\src\Grid.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Damia/cpp-langtons-ant/include
+  OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-langtons-ant.dir\src
+
+build CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj: CXX_COMPILER__cpp-langtons-ant_unscanned_Debug C$:/Users/Damia/cpp-langtons-ant/src/main.cpp || cmake_object_order_depends_target_cpp-langtons-ant
+  DEP_FILE = CMakeFiles\cpp-langtons-ant.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Damia/cpp-langtons-ant/include
   OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
@@ -85,7 +92,7 @@ build CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj: CXX_COMPILER__cpp-la
 #############################################
 # Link the executable cpp-langtons-ant.exe
 
-build cpp-langtons-ant.exe: CXX_EXECUTABLE_LINKER__cpp-langtons-ant_Debug CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj | C$:/msys64/mingw64/lib/libsfml-graphics.dll.a C$:/msys64/mingw64/lib/libsfml-window.dll.a C$:/msys64/mingw64/lib/libsfml-system.dll.a
+build cpp-langtons-ant.exe: CXX_EXECUTABLE_LINKER__cpp-langtons-ant_Debug CMakeFiles/cpp-langtons-ant.dir/src/Ant.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Button.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Grid.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/main.cpp.obj CMakeFiles/cpp-langtons-ant.dir/src/Renderer.cpp.obj | C$:/msys64/mingw64/lib/libsfml-graphics.dll.a C$:/msys64/mingw64/lib/libsfml-window.dll.a C$:/msys64/mingw64/lib/libsfml-system.dll.a
   FLAGS = -g
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libsfml-graphics.dll.a  C:/msys64/mingw64/lib/libsfml-window.dll.a  C:/msys64/mingw64/lib/libsfml-system.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp-langtons-ant.dir
