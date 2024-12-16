@@ -19,14 +19,14 @@ Upewnij się, że masz zainstalowane:
 - CMake w wersji 3.10 lub nowszej
 - SFML w wersji 2.5 lub nowszej
 
-## Problemy
-- Program wyłączy się, gdy mrówka spróbuje przekroczyć granicę siatki.
-
 ```bash
 git clone https://github.com/damianlebiedz/cpp-langtons-ant
 ```
 
 Zbuduj aplikację za pomocą IDE.
+
+## Problemy
+- Program wyłącza się, gdy mrówka spróbuje przekroczyć granicę siatki.
 
 ## Screenshoty
 
