@@ -30,7 +30,7 @@ Zbuduj aplikację za pomocą IDE.
 
 ## Screenshoty
 
-![hippo](https://s2.ezgif.com/tmp/ezgif-2-723d9dfffe.gif)
+![ezgif-1-422dfe6d0c](https://github.com/user-attachments/assets/fd615471-6837-419b-b2ef-48040536aa4a)
 
 ## Kontakt
 Damian Lebiedź | 
