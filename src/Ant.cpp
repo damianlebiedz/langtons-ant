@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "Ant.h"
 
-Ant::Ant(int startX, int startY) : x(startX), y(startY), direction(0) {}
+Ant::Ant(int startX, int startY) : x(startX), y(startY), dir(NORTH) {}
 
 void Ant::turnRight() {
     dir = static_cast<Direction>((dir + 1) % 4);
@@ -12,10 +12,10 @@ void Ant::turnLeft() {
 }
 
 void Ant::moveForward() {
-    if (dir == NORTH) --y;
-    else if (dir == EAST) ++x;
-    else if (dir == SOUTH) ++y;
-    else if (dir == WEST) --x;
+    if (dir == NORTH && y < 55) --y;
+    else if (dir == EAST && x < 55) ++x;
+    else if (dir == SOUTH && y > 45) ++y;
+    else if (dir == WEST && x > 45) --x;
 }
 
 void Ant::draw(sf::RenderWindow& window) const {
@@ -26,7 +26,9 @@ void Ant::draw(sf::RenderWindow& window) const {
 }
 
 int Ant::getX() const { return x; }
+
 int Ant::getY() const { return y; }
+
 Direction Ant::getDirection() const {
     return dir;
 }

@@ -1,10 +1,7 @@
-#include <SFML/Graphics.hpp>
-
 #ifndef GRID_H
 #define GRID_H
 
 #include "Ant.h"
-#include <vector>
 
 class Grid {
 public:
@@ -12,15 +9,13 @@ public:
     void update(Ant& ant);
     int getCell(int x, int y) const;
     int getSize() const;
-
-    void draw(sf::RenderWindow& window) const;
+    bool isClicked(const sf::Event & event);
 
 private:
     std::vector<std::vector<int>> grid;
-
     int width, height;
     std::vector<std::vector<bool>> cells;
     int cellSize = 8;
 };
 
-#endif
+#endif //GRID_H

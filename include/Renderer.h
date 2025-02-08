@@ -1,7 +1,7 @@
 #ifndef RENDERER_H
 #define RENDERER_H
 
-#include <SFML/Graphics.hpp>
+#include "Ant.h"
 #include "Grid.h"
 
 class Renderer {
@@ -15,4 +15,4 @@ public:
     void render(Grid& grid, Ant& ant, sf::RenderWindow& window);
 };
 
-#endif // RENDERER_H
+#endif //RENDERER_H

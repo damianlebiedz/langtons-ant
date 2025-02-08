@@ -1,6 +1,7 @@
+#include <SFML/Graphics.hpp>
 #include "Grid.h"
 
-Grid::Grid(int size) : grid(size, std::vector<int>(size, 0)) {}
+Grid::Grid(const int size) : grid(size, std::vector<int>(size, 0)), width(0), height(0) {}
 
 void Grid::update(Ant& ant) {
     int x = ant.getX();
@@ -23,4 +24,11 @@ int Grid::getCell(int x, int y) const {
 
 int Grid::getSize() const {
     return grid.size();
+}
+
+bool Grid::isClicked(const sf::Event &event) {
+    if (event.type == sf::Event::MouseButtonPressed) {
+        return true;
+    }
+    return false;
 }

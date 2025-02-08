@@ -1,3 +1,4 @@
+#include <SFML/Graphics.hpp>
 #include "Renderer.h"
 
 Renderer::Renderer(int gridSize) : gridSize(gridSize), cellSize(600.0f / gridSize) {}
