@@ -24,6 +24,7 @@ git clone https://github.com/damianlebiedz/cpp-langtons-ant
 ```
 
 ## View
+![cpp-langtons-ant](https://github.com/user-attachments/assets/9b71c99d-df5e-4b80-b68b-0046e1f5defd)
 
 ## Contact
 Damian Lebiedź | 
