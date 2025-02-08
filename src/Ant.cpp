@@ -12,10 +12,10 @@ void Ant::turnLeft() {
 }
 
 void Ant::moveForward() {
-    if (dir == NORTH && y < 55) --y;
-    else if (dir == EAST && x < 55) ++x;
-    else if (dir == SOUTH && y > 45) ++y;
-    else if (dir == WEST && x > 45) --x;
+    if (dir == NORTH) --y;
+    else if (dir == EAST) ++x;
+    else if (dir == SOUTH) ++y;
+    else if (dir == WEST) --x;
 }
 
 void Ant::draw(sf::RenderWindow& window) const {

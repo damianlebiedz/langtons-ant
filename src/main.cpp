@@ -54,12 +54,18 @@ int main() {
                 clock.restart();
             }
         }
+        if(ant.getX() <= 0 || ant.getY() <= 0 || ant.getX() >= 101 || ant.getY() >= 101) {
+            timeSpeed = 1;
+            paused = true;
+            if(grid.isClicked(event)) {
+                window.close();
+            }
+        }
         window.clear();
         renderer.render(grid, ant, window);
 
         stepText.setString(std::to_string(steps));
         window.draw(stepText);
-        std::cout<<ant.getX()<<" " <<ant.getY()<<std::endl;
 
         window.display();
     }
