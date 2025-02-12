@@ -20,7 +20,7 @@ Make sure that you have installed:
 - SFML v.2.5 or later
 
 ```bash
-git clone https://github.com/damianlebiedz/cpp-langtons-ant
+git clone https://github.com/damianlebiedz/langtons-ant
 ```
 
 ## View
