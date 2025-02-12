@@ -2,6 +2,8 @@
 Implementation of Langton's ant cellular automaton in C++ using SFML library.
 https://en.wikipedia.org/wiki/Langton%27s_ant
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Contents
 - [Technologies](#technologies)
 - [Installation](#installation)
@@ -24,6 +26,7 @@ git clone https://github.com/damianlebiedz/langtons-ant
 ```
 
 ## View
+![cpp-langtons-ant](https://github.com/user-attachments/assets/9b71c99d-df5e-4b80-b68b-0046e1f5defd)
 
 ## Contact
 Damian Lebiedź | 
