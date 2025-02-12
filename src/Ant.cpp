@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "Ant.h"
+#include <cstdint>
+#include <cstdlib>
 
 Ant::Ant(int startX, int startY) : x(startX), y(startY), dir(NORTH) {}
 
