@@ -1,7 +1,5 @@
 #include <SFML/Graphics.hpp>
 #include "Renderer.h"
-#include <cstdint>
-#include <cstdlib>
 
 Renderer::Renderer(int gridSize) : gridSize(gridSize), cellSize(600.0f / gridSize) {}
 

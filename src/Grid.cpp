@@ -1,7 +1,5 @@
 #include <SFML/Graphics.hpp>
 #include "Grid.h"
-#include <cstdint>
-#include <cstdlib>
 
 Grid::Grid(const int size) : grid(size, std::vector<int>(size, 0)), width(0), height(0) {}
 
