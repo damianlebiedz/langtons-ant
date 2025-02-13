@@ -11,13 +11,13 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 - [Contact](#contact)
 
 ## Technologies
-- C++
-- SFML
-- CMake
+- C++17
+- SFML v.2.5
+- CMake v.3.10
 
 ## Installation
 Make sure that you have installed:
-- C++ compiler compatible with C++17 or later (MinGW recommended: https://www.mingw-w64.org/getting-started/msys2)
+- MinGW (GCC/G++) compiler compatible with C++17 or later (https://www.mingw-w64.org/getting-started/msys2)
 - CMake v.3.10 or later (https://cmake.org/download)
 - SFML v.2.5 or later (https://www.sfml-dev.org/download)
 
@@ -31,15 +31,9 @@ cmake -G "MinGW Makefiles" ..
 cmake --build .
 langtons-ant.exe
 ```
-IMPORTANT:
-```bash
-cmake-G "MinGW Makefiles"
-```
-for MinGW compiler.
-Building with Visual Studio MSVC compiler may encounter errors - to be clatified why...
 
 ## View
-![cpp-langtons-ant](https://github.com/user-attachments/assets/9b71c99d-df5e-4b80-b68b-0046e1f5defd)
+![langtons-ant](https://github.com/user-attachments/assets/9b71c99d-df5e-4b80-b68b-0046e1f5defd)
 
 ## Contact
 Damian Lebiedź | 
