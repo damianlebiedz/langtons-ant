@@ -12,8 +12,8 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 
 ## Technologies
 - C++17
-- SFML v.2.5
 - CMake v.3.10
+- SFML v.2.5
 
 ## Installation
 Make sure that you have installed:
