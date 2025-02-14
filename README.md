@@ -4,7 +4,6 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contents
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [View](#view)
