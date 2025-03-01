@@ -35,5 +35,4 @@ langtons-ant.exe
 ![langtons-ant](https://github.com/user-attachments/assets/9b71c99d-df5e-4b80-b68b-0046e1f5defd)
 
 ## Contact
-Damian Lebiedź | 
-https://damianlebiedz.github.io
+Damian Lebiedź | https://damianlebiedz.github.io/contact.html
