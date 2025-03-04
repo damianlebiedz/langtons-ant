@@ -3,7 +3,7 @@
 
 Renderer::Renderer(int gridSize) : gridSize(gridSize), cellSize(600.0f / gridSize) {}
 
-void Renderer::render(Grid& grid, Ant& ant, sf::RenderWindow& window) {
+void Renderer::render(Grid& grid, Ant& ant, sf::RenderWindow& window) const {
     sf::RectangleShape cell(sf::Vector2f(cellSize, cellSize));
 
     for (int y = 0; y < gridSize; ++y) {

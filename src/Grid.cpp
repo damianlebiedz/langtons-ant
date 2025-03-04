@@ -1,7 +1,8 @@
-#include <SFML/Graphics.hpp>
 #include "Grid.h"
+#include "Ant.h"
+#include <SFML/Graphics.hpp>
 
-Grid::Grid(const int size) : grid(size, std::vector<int>(size, 0)), width(0), height(0) {}
+Grid::Grid(const int size): grid(size, std::vector<int>(size, 0)) {}
 
 void Grid::update(Ant& ant) {
     int x = ant.getX();
@@ -19,16 +20,8 @@ void Grid::update(Ant& ant) {
 }
 
 int Grid::getCell(int x, int y) const {
-    return grid[y][x];
-}
-
-int Grid::getSize() const {
-    return grid.size();
-}
-
-bool Grid::isClicked(const sf::Event &event) {
-    if (event.type == sf::Event::MouseButtonPressed) {
-        return true;
+    if (x < 0 || y < 0 || x >= grid.size() || y >= grid[0].size()) {
+        throw std::out_of_range("Cell coordinates are out of bounds");
     }
-    return false;
+    return grid[y][x];
 }

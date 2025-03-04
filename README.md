@@ -13,6 +13,7 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 - C++17
 - CMake v.3.10
 - SFML v.2.5
+- GoogleTest (https://github.com/google/googletest)
 
 ## Installation
 Make sure that you have installed:

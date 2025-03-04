@@ -5,14 +5,11 @@
 #include "Grid.h"
 
 class Renderer {
-
-private:
     int gridSize;
     float cellSize;
-
 public:
-    Renderer(int gridSize);
-    void render(Grid& grid, Ant& ant, sf::RenderWindow& window);
+    explicit Renderer(int gridSize);
+    void render(Grid& grid, Ant& ant, sf::RenderWindow& window) const;
 };
 
 #endif //RENDERER_H
