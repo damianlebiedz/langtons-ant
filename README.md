@@ -10,8 +10,8 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 - [Contact](#contact)
 
 ## Technologies
-- C++17
-- CMake v.3.10
+- C++ 14
+- CMake v.3.14
 - SFML v.2.5
 - GoogleTest (https://github.com/google/googletest)
 
