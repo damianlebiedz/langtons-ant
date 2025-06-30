@@ -10,15 +10,15 @@ https://en.wikipedia.org/wiki/Langton%27s_ant
 - [Contact](#contact)
 
 ## Technologies
-- C++17
-- CMake v.3.10
+- C++ 14
+- CMake v.3.14
 - SFML v.2.5
 - GoogleTest (https://github.com/google/googletest)
 
 ## Installation
 Make sure that you have installed:
-- MinGW (GCC/G++) compiler compatible with C++17 or later (https://www.mingw-w64.org/getting-started/msys2)
-- CMake v.3.10 or later (https://cmake.org/download)
+- MinGW (GCC/G++) compiler compatible with C++ 14 or later (https://www.mingw-w64.org/getting-started/msys2)
+- CMake v.3.14 or later (https://cmake.org/download)
 - SFML v.2.5 or later (https://www.sfml-dev.org/download)
 
 Type in Command Prompt:
